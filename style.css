@@ -1,0 +1,204 @@
+body{
+ background-color: beige;
+}
+
+#Button1{
+    display:flex;
+    justify-content:center;
+}
+#ButtonNo:hover{
+    cursor: not-allowed;
+    color:red;
+}
+#ButtonSi:hover{
+    cursor:copy;
+    color:green;
+}
+
+@media(min-width:1050px){
+    img.Titulo{
+        width: 600px;
+        height: 200px; 
+    }
+    img.Titulo3{
+        display:block;
+        margin:auto;
+        width: 600px;
+        height: 200px; 
+    }
+    #MundoH{
+        text-align: left;
+        padding-left: 70px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    main.HPM1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    img.Image1{
+         width: 450px;
+        height: 450px;
+        float: right;
+        margin-left: 10px;
+        max-width: 40%;
+        padding: 50px;
+        margin-right: 70px;
+    }
+    #Descript{
+        float:left;
+        margin-right: 70px;
+        max-width: 60%;
+        padding: 70px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif'Courier New', Courier, monospace;
+        text-align:justify;
+        
+    
+    }
+    #Resumen{
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+        align-items: center;
+    }
+    #Argument{
+        padding: 70px;
+        margin-right: 70px;
+        text-align:justify;
+        font-family:Verdana, Geneva, Tahoma, sans-serif'Courier New', Courier, monospace;
+    }
+    img.ImageApi{
+        
+        display:block;
+        margin:auto;
+        width: 200px;
+        height: 200px;
+    }
+    #ButtonAdd:hover{
+        color:green;
+    }
+    #ButtonRem:hover{
+        color:red
+    }
+    #Libros{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #Pelis{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    li{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #Compras{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+    }
+    #Subtitulo3{
+        text-align: center;
+    }
+    #Favoritos{
+        text-align: center;
+    }
+    #ListaApi{  
+        border: 20px;
+        display: inline-block;
+        width: auto;
+        margin: 30px;
+        padding: 50px, 50px;   
+    }
+}
+
+
+
+@media (max-width:1049px) {
+
+    img.Titulo{
+        display:block;
+        margin:auto;
+        width: 200px;
+        height: 100px; 
+    }
+    img.Titulo3{
+        display:block;
+        margin:auto;
+        width: 200px;
+        height: 100px; 
+    }
+        
+    #MundoH{
+        
+        padding: 30px;
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    main.HPM1 {
+        
+        align-items:baseline;
+    
+    }
+    img.Image1{
+        margin-left: 80px;
+        margin-right: 50px;
+        width: 400px;
+        height: 300px;
+    }
+    #Descript{
+        padding: 50px; 
+        text-align:justify;
+        font-size: 14px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif'Courier New', Courier, monospace;
+        
+    }
+    #Resumen{
+        padding: 30px;
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #Argument{
+        
+        padding: 50px;
+        text-align:justify;
+        font-size: 14px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif'Courier New', Courier, monospace;
+    }
+    img.ImageApi{
+        display:block;
+        margin:auto;
+        width: 150px;
+        height: 150px;
+    }
+    #ButtonAdd:hover{
+        color:green;
+    }
+    #ButtonRem:hover{
+        color:red
+    }
+    #List1{
+        margin-right: 50px;
+        font-size: 16px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+    }
+    
+    #List2{
+        margin-right: 50px;
+        font-size: 16px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+    }
+    #Subtitulo3{
+        text-align: center;
+    }
+    #Favoritos{
+        text-align: center;
+    }
+    #ListaApi{  
+        text-align: center;
+        display:block;
+        margin:auto;
+    }
+}
